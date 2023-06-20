@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='stock_downloader',
     version='0.2',
-    packages=find_packages(),
+    py_modules=['downloader'],
     install_requires=[
         'yfinance',
     ],
