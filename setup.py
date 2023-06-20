@@ -13,7 +13,7 @@ def read(fname):
 
 setup(
     name='stock_downloader',
-    version='0.3',
+    version='0.4',
     author="Adam Sierakowski",
     packages=['stock_csv'],
     install_requires=[
