@@ -4,6 +4,7 @@ import os
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)  # Set the default logging level
+logger.addHandler(logging.FileHandler('log.txt'))
 
 
 def download_data(ticker, enable_logging=False):
