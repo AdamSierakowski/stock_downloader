@@ -15,7 +15,7 @@ setup(
     name='stock_downloader',
     version='0.3',
     author="Adam Sierakowski",
-    packages=['stock_downloader_csv'],
+    packages=['stock_csv'],
     install_requires=[
         'yfinance',
     ],
