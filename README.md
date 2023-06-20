@@ -14,13 +14,13 @@ pip install stock_downloader
 
 The package includes the following files:
 
-- `__init__.py`: An empty file that marks the `stock_downloader` directory as a Python package.
+- `__init__.py`: An empty file that marks the `stock_csv` directory as a Python package.
 - `downloader.py`: Contains functions to download and save stock market data.
 
-To use the package, you can import the necessary functions from `stock_downloader.downloader`:
+To use the package, you can import the necessary functions from `stock_downloader.stock_csv.downloader`:
 
 ```
-    from stock_downloader.downloader import run_iterations
+    from stock_downloader.stock_csv.downloader import run_iterations
 
     ticker = 'BHP.AX'
     num_iterations = 10
