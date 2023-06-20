@@ -20,7 +20,7 @@ The package includes the following files:
 To use the package, you can import the necessary functions from `stock_downloader.stock_csv.downloader`:
 
 ```
-    from stock_downloader.stock_csv.downloader import run_iterations
+    from stock_csv.downloader import run_iterations
 
     ticker = 'BHP.AX'
     num_iterations = 10
