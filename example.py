@@ -1,4 +1,4 @@
-from stock_downloader.downloader import run_iterations
+from stock_downloader.stock_csv.downloader import run_iterations
 
 ticker = 'BHP.AX'
 num_iterations = 10
