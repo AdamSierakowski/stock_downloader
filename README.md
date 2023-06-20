@@ -29,12 +29,14 @@ run_iterations(ticker, num_iterations)
 
 The stock_downloader package has the following structure:
 
-stock_downloader/
-├── __init__.py
-├── downloader.py
-├── example.py
-├── README.md
-└── setup.py
+```
+    stock_downloader/
+    ├── __init__.py
+    ├── downloader.py
+    ├── example.py
+    ├── README.md
+    └── setup.py
+```
 
 ## Development and Contribution
 
